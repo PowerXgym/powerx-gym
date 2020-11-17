@@ -8,7 +8,7 @@ const Pricing = () => {
     const [AllPrice, setAllPrice] =useState([])
     console.log(AllPrice)
     useEffect(() => {
-        fetch('http://localhost:5000/AllPrices')
+        fetch('https://obscure-wave-43497.herokuapp.com/AllPrices')
         .then(res => res.json())
         .then(data =>setAllPrice(data))
     }, [])

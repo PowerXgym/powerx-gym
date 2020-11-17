@@ -11,7 +11,7 @@ const ClassDescription = () => {
 
     const [classesData,setClassData]=useState([])
 useEffect(() => {
-    fetch('http://localhost:5000/AllClacess')
+    fetch('https://obscure-wave-43497.herokuapp.com/AllClacess')
     .then(res => res.json())
     .then(data =>setClassData(data))
 }, [])
