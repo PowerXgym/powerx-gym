@@ -61,7 +61,7 @@ const ClassDescription = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-6'>
-                        <img style={{ width: '55%', height: '50%' }} src={classDescription.img}></img>
+                        <img style={{ width: '80%', height: '50%' }} src={classDescription.img}></img>
 
                         <p className='mt-3'>
                             {classDescription.description}
