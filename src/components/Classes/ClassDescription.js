@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ClassSchedule from './ClassSchedule';
 import fakeData from './fakeData';
-import checkmark from '../../Images/checkmark.png';
+import checkmark from '../../Images/checkmark-square-2.png';
 import './ClassDescription.scss';
 import Footer from '../Footer/Footer';
 
