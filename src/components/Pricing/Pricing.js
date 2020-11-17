@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react/cjs/react.development';
 import Footer from '../Footer/Footer';
-import Header from '../Shared/Header/Header';
+import PageHeader from '../Shared/PageHeader/PageHeader';
 import SinglePrice from './SinglePrice';
 
 const Pricing = () => {
     const [AllPrice, setAllPrice] =useState([])
+    console.log(AllPrice)
     useEffect(() => {
         fetch('http://localhost:5000/AllPrices')
         .then(res => res.json())
@@ -14,7 +15,7 @@ const Pricing = () => {
 
     return (
         <div >
-            <Header name="Pricing Plans"/>
+            <PageHeader name="Pricing Plans"/>
             <div align="center" className="container pt-5">
                 <h1><span className="text-warning">Choose the other</span> that suits you</h1>
                 <p className="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br></br> Et maxime, minima dignissimos </p>

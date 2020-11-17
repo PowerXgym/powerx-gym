@@ -1,0 +1,33 @@
+$logoColor : orange;
+$textColor: white;
+
+.logoX{
+    color: $logoColor;
+    font-weight: bold;
+}
+
+.bg-color{
+    background-color: transparent;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../../Images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    background-size: 100%, 100%;
+}
+
+.jumbotron-height{
+    height: 750px;
+}
+
+.intro-Style{
+    margin-top: 10%;
+}
+
+.fitness{
+    font-size: 130%;
+}
+
+.btn-warning{
+    width: 120px;
+    font-weight: bold;
+}

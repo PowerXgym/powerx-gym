@@ -5,7 +5,6 @@ import {
   Switch,
   Route,
  } from "react-router-dom";
-import Navbar from './components/Navbar/Navbar';
 import Workout from './components/Workout/Workout';
 import AboutUs from './components/AboutUs/AboutUs';
 import Training from './components/Training/Training';
@@ -17,6 +16,7 @@ import Pricing from './components/Pricing/Pricing';
 import Payment from './components/Payment/Payment';
 import Classes from './components/Classes/Classes';
 import ClassDescription from './components/Classes/ClassDescription';
+import HomeHeader from './components/HomeHeader/HomeHeader';
 
 function App() {
   return (
@@ -33,8 +33,16 @@ function App() {
         <Route path="/payment">
           <Payment/>
         </Route>
+        <Route   path="/home">
+          <HomeHeader></HomeHeader>
+          <Workout></Workout>
+          <AboutUs></AboutUs>
+          <Training></Training>
+          <ChooseUs></ChooseUs>
+          <Footer></Footer>
+        </Route>
         <Route exact  path="/">
-          <Navbar></Navbar>
+          <HomeHeader></HomeHeader>
           <Workout></Workout>
           <AboutUs></AboutUs>
           <Training></Training>

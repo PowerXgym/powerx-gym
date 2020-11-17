@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import Header from '../Shared/Header/Header';
 import papalImg from '../../Images/Bitmap.png'
 import card1 from '../../Images/credit-cards_amex.png'
 import card2 from '../../Images/credit-cards_mastercard.png'
@@ -9,6 +8,7 @@ import {CardElement} from '@stripe/react-stripe-js';
 import CardPayment from './CardPayment';
 import {Elements} from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
+import PageHeader from '../Shared/PageHeader/PageHeader';
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
@@ -17,7 +17,7 @@ const stripePromise = loadStripe('pk_test_JJ1eMdKN0Hp4UFJ6kWXWO4ix00jtXzq5XG');
 const Payment = () => {
     return (
         <div>
-            <Header name="Your gym Membership" />
+            <PageHeader name="Your gym Membership" />
             <div className=" container mt-5 pt-5">
                 <div className="  row allSteps mb-5">
                     <div align="right" className="col-md-4 p-0">

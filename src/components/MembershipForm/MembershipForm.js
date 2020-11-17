@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
-import Header from '../Shared/Header/Header';
+import PageHeader from '../Shared/PageHeader/PageHeader';
 import './MembershipForm.css'
 
 const MembershipForm = () => {
     return (
         <div>
-            <Header name="Your gym Membership" />
+            <PageHeader name="Your gym Membership" />
             <div className=" container mt-5 pt-5">
                 <div className="  row allSteps">
                     <div align="right" className="col-md-4 p-0"><span className="activestep">1</span></div>
