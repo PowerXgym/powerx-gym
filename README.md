@@ -1,4 +1,4 @@
-# Creative-Agency Web App
+# Power-X-Gym Web App
 ✿✿✿[LIVE WEBSITE](https://powerxgym-68ed9.web.app/)✿✿✿ [</> Backend Code](https://github.com/moshiuzzaman/PowerXGym-server-new.git)✿✿✿
 
 This is a group project by me and my two groupmates. In this project, I worked on some front-end
